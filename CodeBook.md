@@ -12,7 +12,9 @@ The Subject and Activity columns represent the ID for each of the records in the
 The identifier of the subject who performed the activity for each window sample. Its range is from 1 to 30.
 
 *Activity:*
-The type of activity undertaken when the measurements were recorded. 6 types: 
+The type of activity undertaken when the measurements were recorded.
+
+6 types of Activity: 
 1. Walking
 2. Walking Upstairs
 3. Walkind Downstairs
@@ -22,87 +24,93 @@ The type of activity undertaken when the measurements were recorded. 6 types:
 
 ####Measurements
 The following are all the Mean and Standard Deviation Recordings that the run_Analysis code will output. 
-Some prefixes:
-*Acc - Accelerometer signals (in hertz)
-*Gravity - Gravity signals (in hertz)
 
-tBodyAcc_Mean_X
-tBodyAcc_Mean_Y
-tBodyAcc_Mean_Z
-tBodyAcc_Std_Dev_X
-tBodyAcc_Std_Dev_Y
-tBodyAcc_Std_Dev_Z
-tGravityAcc_Mean_X
-tGravityAcc_Mean_Y
-tGravityAcc_Mean_Z
-tGravityAcc_Std_Dev_X
-tGravityAcc_Std_Dev_Y
-tGravityAcc_Std_Dev_Z
-tBodyAccJerk_Mean_X
-tBodyAccJerk_Mean_Y
-tBodyAccJerk_Mean_Z
-tBodyAccJerk_Std_Dev_X
-tBodyAccJerk_Std_Dev_Y
-tBodyAccJerk_Std_Dev_Z
-tBodyGyro_Mean_X
-tBodyGyro_Mean_Y
-tBodyGyro_Mean_Z
-tBodyGyro_Std_Dev_X
-tBodyGyro_Std_Dev_Y
-tBodyGyro_Std_Dev_Z
-tBodyGyroJerk_Mean_X
-tBodyGyroJerk_Mean_Y
-tBodyGyroJerk_Mean_Z
-tBodyGyroJerk_Std_Dev_X
-tBodyGyroJerk_Std_Dev_Y
-tBodyGyroJerk_Std_Dev_Z
-tBodyAccMag_Mean_
-tBodyAccMag_Std_Dev_
-tGravityAccMag_Mean_
-tGravityAccMag_Std_Dev_
-tBodyAccJerkMag_Mean_
-tBodyAccJerkMag_Std_Dev_
-tBodyGyroMag_Mean_
-tBodyGyroMag_Std_Dev_
-tBodyGyroJerkMag_Mean_
-tBodyGyroJerkMag_Std_Dev_
-fBodyAcc_Mean_X
-fBodyAcc_Mean_Y
-fBodyAcc_Mean_Z
-fBodyAcc_Std_Dev_X
-fBodyAcc_Std_Dev_Y
-fBodyAcc_Std_Dev_Z
-fBodyAcc_Mean_FreqX
-fBodyAcc_Mean_FreqY
-fBodyAcc_Mean_FreqZ
-fBodyAccJerk_Mean_X
-fBodyAccJerk_Mean_Y
-fBodyAccJerk_Mean_Z
-fBodyAccJerk_Std_Dev_X
-fBodyAccJerk_Std_Dev_Y
-fBodyAccJerk_Std_Dev_Z
-fBodyAccJerk_Mean_FreqX
-fBodyAccJerk_Mean_FreqY
-fBodyAccJerk_Mean_FreqZ
-fBodyGyro_Mean_X
-fBodyGyro_Mean_Y
-fBodyGyro_Mean_Z
-fBodyGyro_Std_Dev_X
-fBodyGyro_Std_Dev_Y
-fBodyGyro_Std_Dev_Z
-fBodyGyro_Mean_FreqX
-fBodyGyro_Mean_FreqY
-fBodyGyro_Mean_FreqZ
-fBodyAccMag_Mean_
-fBodyAccMag_Std_Dev_
-fBodyAccMag_Mean_Freq
-fBodyBodyAccJerkMag_Mean_
-fBodyBodyAccJerkMag_Std_Dev_fBodyBodyAccJerkMag_Mean_Freq
-fBodyBodyGyroMag_Mean_
-fBodyBodyGyroMag_Std_Dev_
-fBodyBodyGyroMag_Mean_Freq
-fBodyBodyGyroJerkMag_Mean_
-fBodyBodyGyroJerkMag_Std_Dev_fBodyBodyGyroJerkMag_Mean_Freq
+Some prefixes:
+* Acc - Accelerometer signals (in hertz)
+* Gravity - Gravity signals (in hertz)
+
+* Subject
+* Activity
+* tBodyAcc_MeanX
+* tBodyAcc_MeanY
+* tBodyAcc_MeanZ
+* tBodyAcc_StdDevX
+* tBodyAcc_StdDevY
+* tBodyAcc_StdDevZ
+* tGravityAcc_MeanX
+* tGravityAcc_MeanY
+* tGravityAcc_MeanZ
+* tGravityAcc_StdDevX
+* tGravityAcc_StdDevY
+* tGravityAcc_StdDevZ
+* tBodyAccJerk_MeanX
+* tBodyAccJerk_MeanY
+* tBodyAccJerk_MeanZ
+* tBodyAccJerk_StdDevX
+* tBodyAccJerk_StdDevY
+* tBodyAccJerk_StdDevZ
+* tBodyGyro_MeanX
+* tBodyGyro_MeanY
+* tBodyGyro_MeanZ
+* tBodyGyro_StdDevX
+* tBodyGyro_StdDevY
+* tBodyGyro_StdDevZ
+* tBodyGyroJerk_MeanX
+* tBodyGyroJerk_MeanY
+* tBodyGyroJerk_MeanZ
+* tBodyGyroJerk_StdDevX
+* tBodyGyroJerk_StdDevY
+* tBodyGyroJerk_StdDevZ
+* tBodyAccMag_Mean
+* tBodyAccMag_StdDev
+* tGravityAccMag_Mean
+* tGravityAccMag_StdDev
+* tBodyAccJerkMag_Mean
+* tBodyAccJerkMag_StdDev
+* tBodyGyroMag_Mean
+* tBodyGyroMag_StdDev
+* tBodyGyroJerkMag_Mean
+* tBodyGyroJerkMag_StdDev
+* fBodyAcc_MeanX
+* fBodyAcc_MeanY
+* fBodyAcc_MeanZ
+* fBodyAcc_StdDevX
+* fBodyAcc_StdDevY
+* fBodyAcc_StdDevZ
+* fBodyAcc_MeanFreqX
+* fBodyAcc_MeanFreqY
+* fBodyAcc_MeanFreqZ
+* fBodyAccJerk_MeanX
+* fBodyAccJerk_MeanY
+* fBodyAccJerk_MeanZ
+* fBodyAccJerk_StdDevX
+* fBodyAccJerk_StdDevY
+* fBodyAccJerk_StdDevZ
+* fBodyAccJerk_MeanFreqX
+* fBodyAccJerk_MeanFreqY
+* fBodyAccJerk_MeanFreqZ
+* fBodyGyro_MeanX
+* fBodyGyro_MeanY
+* fBodyGyro_MeanZ
+* fBodyGyro_StdDevX
+* fBodyGyro_StdDevY
+* fBodyGyro_StdDevZ
+* fBodyGyro_MeanFreqX
+* fBodyGyro_MeanFreqY
+* fBodyGyro_MeanFreqZ
+* fBodyAccMag_Mean
+* fBodyAccMag_StdDev
+* fBodyAccMag_MeanFreq
+* fBodyBodyAccJerkMag_Mean
+* fBodyBodyAccJerkMag_StdDev
+* fBodyBodyAccJerkMag_MeanFreq
+* fBodyBodyGyroMag_Mean
+* fBodyBodyGyroMag_StdDev
+* fBodyBodyGyroMag_MeanFreq
+* fBodyBodyGyroJerkMag_Mean
+* fBodyBodyGyroJerkMag_StdDev
+* fBodyBodyGyroJerkMag_MeanFreq
+
 
 
 ##Transformations

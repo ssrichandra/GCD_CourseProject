@@ -12,6 +12,8 @@ The repository contains the following files
 This is the R source code that will download the HAR data file from the UCI repository and load the required tables.
 The following steps were taken
 1. Combining the Files
+2. Melting the Dataset
+3. Casting the data set, writing the Tidy.txt file
 
 ####1. Combining the files
 The activity labels file provided the identifiers that would eventually populate the Activity Column, and similarly for the features provided the measurement variables names. These would be used in the Header fields for the measurements.
