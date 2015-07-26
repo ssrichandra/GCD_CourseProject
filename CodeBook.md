@@ -14,20 +14,26 @@ The identifier of the subject who performed the activity for each window sample.
 *Activity:*
 The type of activity undertaken when the measurements were recorded.
 
-6 types of Activity: 
+6 types of Activity:
+
 1. Walking
+
 2. Walking Upstairs
+
 3. Walkind Downstairs
+
 4. Sitting
+
 5. Standing
+
 6. Laying
 
 ####Measurements
 The following are all the Mean and Standard Deviation Recordings that the run_Analysis code will output. 
 
 Some prefixes:
-* Acc - Accelerometer signals (in hertz)
-* Gravity - Gravity signals (in hertz)
+* *Acc* - Accelerometer signals (in hertz)
+* *Gravity* - Gravity signals (in hertz)
 
 * Subject
 * Activity
@@ -115,17 +121,25 @@ Some prefixes:
 
 ##Transformations
 The following text files were used to generate the preliminary data table.
+
 1. UCI HAR Dataset/activity_labels.txt
+
 2. UCI HAR Dataset/features.txt
+
 3. UCI HAR Dataset/train/X_train.txt
+
 4. UCI HAR Dataset/train/Y_train.txt
+
 5. UCI HAR Dataset/train/subject_train.txt
+
 6. UCI HAR Dataset/test/X_test.txt
+
 7. UCI HAR Dataset/test/y_test.txt
+
 8. UCI HAR Dataset/test/subject_test.txt
 
 
 ##Additional Notes
-*More information about the data is available in the Features_info.txt file contained in the zip
-*Only Mean and Standard Deviation columns were analysed in the tidy.txt file
+* More information about the data is available in the Features_info.txt file contained in the zip
+* Only Mean and Standard Deviation columns were analysed in the tidy.txt file
 

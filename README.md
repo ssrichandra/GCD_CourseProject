@@ -11,8 +11,11 @@ The repository contains the following files
 ###File 1: run_Analysis.R
 This is the R source code that will download the HAR data file from the UCI repository and load the required tables.
 The following steps were taken
+
 1. Combining the Files
+
 2. Melting the Dataset
+
 3. Casting the data set, writing the Tidy.txt file
 
 ####1. Combining the files
